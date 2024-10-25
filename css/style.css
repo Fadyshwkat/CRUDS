@@ -1,0 +1,44 @@
+
+
+body{
+    font-family: "Prompt", sans-serif;
+}
+.logo{
+    width: fit-content;
+    
+}
+.logo h1{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.form-floating>.form-control , .form-floating>.form-select{
+    border-style:solid ;
+    border-width: 0px 0px 1px 0px ;
+    border-radius: 0px;
+   
+}
+
+.form-floating>.form-control:focus ,
+.form-floating>.form-select:focus{
+    border-style:solid ;
+    border-color: darkcyan ;
+    border-width: 0px 0px 1px 0px ;
+    border-radius: 0px;
+}
+
+.delete-icon:hover{
+    animation: fa-shake 1s infinite;
+}
+.card-icons i:hover{
+    cursor: pointer;
+}
+
+.img-container{
+    height: 150px;
+}
+.img-container img:hover{
+    cursor: pointer;
+}
+.img-container img{
+    object-position: top;
+}
